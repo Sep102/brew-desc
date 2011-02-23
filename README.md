@@ -8,12 +8,12 @@ It's an [external command](https://github.com/mxcl/homebrew/wiki/External-Comman
 
 If you already know the name of a package, and you want to see a bit about it, that's easy:
 
-    telemachus ~ ❯❯ brew desc mutt
+    $ brew desc mutt
     mutt: Mongrel of Mail User Agents (part Elm, Pine, Mush, mh, etc)
 
 If you know the kind of thing you're interested in, but not the name of specific items, that's easy too:
 
-    telemachus brew-desc ❯❯ brew desc -s key-value
+    $ brew desc -s key-value
     redis: A persistent key-value database with built-in net interface
     kumofs: A scalable and highly available distributed key-value store
     cassandra: Highly scalable, eventually consistent, distributed key-value store
