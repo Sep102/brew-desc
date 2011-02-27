@@ -22,7 +22,12 @@ Both `-s` and `--search` are acceptable. Searches are always case insensitive. (
 
 ## Installation
 
-Download and put the file `brew-desc.rb` anywhere in your `$PATH`. Leave the name as is; Homebrew knows how to find it.
+Download and put the file `brew-desc.rb` anywhere in your `$PATH`, and make it executable. For example:
+
+    mv brew-desc.rb ~/bin
+    chmod +x ~/bin/brew-desc.rb
+
+Leave the name as is; Homebrew knows how to find it.
 
 ## Contributing
 
