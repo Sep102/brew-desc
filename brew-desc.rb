@@ -756,7 +756,13 @@ descriptions = {
   "xchat" => "GTK+ IRC client",
   "sbcl" => "The Steel Bank Common Lisp system",
   "ejabberd" => "An XMPP application server",
-  "tcpflow" => "TCP flow recorder"
+  "tcpflow" => "TCP flow recorder",
+  "ttytter" => "Command line Twitter client",
+  "etl" => "Extensible template library",
+  "synfig" => "Command line renderer",
+  "ranger" => "File browser",
+  "libxml++" => "C++ wrapper for libxml",
+  "gtk+" => "GUI toolkit"
 }
 
 if ARGV.first == '-s' or ARGV.first == '--search'
