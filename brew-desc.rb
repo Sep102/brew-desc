@@ -762,7 +762,11 @@ descriptions = {
   "synfig" => "Command line renderer",
   "ranger" => "File browser",
   "libxml++" => "C++ wrapper for libxml",
-  "gtk+" => "GUI toolkit"
+  "gtk+" => "GUI toolkit",
+  "gnu-shogi" => "Japanese version of chess, against a human (or computer) opponent",
+  "tofrodos" => "Text file conversion between Unix and DOS formats",
+  "cgdb" => "A curses interface to the GNU Debugger (GDB)",
+  "aqua-less" => "Cocoa text pager"
 }
 
 if ARGV.first == '-s' or ARGV.first == '--search'
