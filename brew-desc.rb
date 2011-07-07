@@ -787,7 +787,7 @@ else
     if descriptions.key?(f)
       puts "#{f}: #{descriptions[f]}"
     else
-      puts "No description yet for #{f}"
+      puts "#{f}: No description yet. Please add one!"
     end
   end
 end
