@@ -785,10 +785,17 @@ if ARGV.first == '-s' or ARGV.first == '--search'
 else
   ARGV.formulae.each do |f|
     f = f.name
+    
+    #   Tty.<color> variables are defined in:
+    #   HOMEBREW_LIBRARY_PATH/utils.rb
+    #
+    #   Note that many colors automatically come with
+    #   styling like bold and underline, etc.  Check
+    #   the definitions for details.
     if descriptions.key?(f)
-      puts "#{f}: #{descriptions[f]}"
+      puts "#{Tty.white}#{f}:#{Tty.reset} #{descriptions[f]}"
     else
-      puts "#{f}: No description yet. Please add one!"
+      puts "#{Tty.yellow}#{f}:#{Tty.reset} No description yet. Please add one!"
     end
   end
 end
