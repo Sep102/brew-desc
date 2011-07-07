@@ -552,6 +552,7 @@ descriptions = {
   "pigz" => "Parallel gzip",
   "pinentry" => "Passphrase entry dialog utilizing the Assuan protocol",
   "platypus" => "Program for creating application wrappers around scripts",
+  "play" => "A Java web framework that focuses on developer productivity",
   "png2ico" => "Converts PNG files to Windows icon resource files",
   "pngcrush" => "Optimizer for PNG files",
   "poco" => "POCO C++ Libraries",
