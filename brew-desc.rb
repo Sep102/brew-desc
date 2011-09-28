@@ -8,7 +8,7 @@
 # Examples:
 #
 #   1. brew desc -s string or regex # search for something in descriptions
-#   2. brew desc name1 name2...     # get descriptions for one or more known items
+#   2. brew desc name1 name2...     # get descriptions for one or more items
 # =============================================================================
 
 descriptions = {
